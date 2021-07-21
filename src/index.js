@@ -4,17 +4,10 @@ import App from './App';
 
 
 
-function trick(){
 
-  console.log('this is a trick function');
-
-
-  ReactDOM.render(
+ReactDOM.render(
   
-    <App />,
-    
-    document.getElementById('root')
-  );
-}
-
-setInterval(trick, 1000);
+  <App />,
+  
+  document.getElementById('root')
+);
