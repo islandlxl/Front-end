@@ -5,6 +5,8 @@ import StateComponent from './StateComponent';
 import Clock  from './Clock';
 import Calculator from './temperature/Calculator';
 import TemperatureInput from './temperature/TemperatureInput';
+import WelcomeDialog from './signUpDialog/WelcomeDialog';
+import SignUpDialog from './signUpDialog/SignUpDialog';
 
 class App extends React.Component{
     
@@ -16,7 +18,7 @@ class App extends React.Component{
             {/* <PropsUsageComponent nav= {nav} />
             <Home nav={nav} title='导航'/>
             <StateComponent /> */}
-            <Calculator  />
+            <SignUpDialog  />
         </div>)
     };
 }
