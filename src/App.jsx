@@ -1,4 +1,5 @@
 import React from 'react';
+import ComponentLife from './ComponentLife';
 // import PropsUsageComponent from './PropsUsageComponent';
 // import Home from './Home';
 // import StateComponent from './StateComponent';
@@ -7,11 +8,12 @@ import React from 'react';
 // import TemperatureInput from './temperature/TemperatureInput';
 // import WelcomeDialog from './signUpDialog/WelcomeDialog';
 // import SignUpDialog from './signUpDialog/SignUpDialog';
-import ComponentLife from './ComponentLife';
-import KeyDemo from './KeyDemo';
-import RefDemo from './RefDemo';
-import SetStateComponent from './SetStateComponent';
-import StateComponent from './StateComponent';
+// import ComponentLife from './ComponentLife';
+// import KeyDemo from './KeyDemo';
+// import RefDemo from './RefDemo';
+// import SetStateComponent from './SetStateComponent';
+// import StateComponent from './StateComponent';
+import Game from './tic-tac-toe/Game';
 
 class App extends React.Component{
     constructor(props){
@@ -36,7 +38,7 @@ class App extends React.Component{
             <StateComponent /> */}
             {/* <ComponentLife title={this.state.title}  />
             <button onClick={this.updateText}>修改文本2</button> */}
-            <RefDemo  />
+            <Game  />
         </div>)
     };
 }

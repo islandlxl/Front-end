@@ -20,7 +20,7 @@ export default class ComponentLife extends React.Component{
     }
     shouldComponentUpdate(){
         console.log("shouldComponentUpdate");
-        return false;
+        return true;
     }
     componentWillUpdate(){
         console.log("componentWillUpdate");
